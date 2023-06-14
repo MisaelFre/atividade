@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+
+/*pagina para celular*/
+@media only screen and (min-width: 340px){
+    .pro01{
+        width: 300px;
+        height: 1640px;
+        background-color: rgb(74, 72, 72);
+        margin: auto;
+    }
+/*plantas*/
+.b1{
+    width: 300px;
+    height: 712px;
+    background-color: aqua;
+    margin-top: 890px;
+}
+.b2{
+    width: 180px;
+    height: 180px;
+    background-color: blue;
+    position: absolute;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left: 30px;
+    margin-top: -1570px;
+}
+.b3{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(32, 205, 150);
+    position: absolute;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left: 90px;
+    margin-top: -1290px;
+}
+.b4{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(232, 11, 180);
+    position: absolute;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin-left: 30px;
+    margin-top: -1007px;
+}
+/*quadrados*/
+.b5{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -1380px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: white;
+
+}
+.b6{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -1100px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: white;
+}
+.b7{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -820px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: white;
+}
+.img1{
+    width: 300px;
+    height: 712px;
+}
+.img2{
+    width: 180px;
+    height: 180px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+}
+
+/*Página para Pc*/
+@media only screen and (min-width: 900px){
+    .pro01{
+        width: 800px;
+        height: 768px;
+        background-color: rgb(74, 72, 72);
+        margin: auto;
+    }
+    /*plantas*/
+    .b1{
+        width: 400px;
+        height: 712px;
+        background-color: aqua;
+        margin-left: 400px;
+        margin-top: 0px;
+    }
+    .b2{
+        width: 180px;
+        height: 180px;
+        background-color: blue;
+        position: absolute;
+        border-top-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+        margin-left: -365px;
+        margin-top: -665px;
+    }
+    .b3{
+        width: 180px;
+        height: 180px;
+        background-color: rgb(32, 205, 150);
+        position: absolute;
+        border-top-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+        margin-left: -365px;
+        margin-top: -245px;
+    }
+    .b4{
+        width: 180px;
+        height: 180px;
+        background-color: rgb(232, 11, 180);
+        position: absolute;
+        border-top-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+        margin-left: -365px;
+        margin-top: -455px;
+    }
+    /*quadrados*/
+    .b5{
+        width: 130px;
+        height: 100px;
+        position: absolute;
+        margin-left: -150px;
+        margin-top: -665px;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        color: white;
+
+    }
+    .b6{
+        width: 130px;
+        height: 100px;
+        position: absolute;
+        margin-left: -150px;
+        margin-top: -245px;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        color: white;
+    }
+    .b7{
+        width: 130px;
+        height: 100px;
+        position: absolute;
+        margin-left: -150px;
+        margin-top: -455px;
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+        color: white;
+    }
+    .img1{
+        width: 400px;
+        height: 712px;
+    }
+    .img2{
+        width: 180px;
+        height: 180px;
+        border-top-left-radius: 90px;
+        border-bottom-right-radius: 90px;
+    }
+}

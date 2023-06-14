@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+
+/*pagina para celular*/
+@media only screen and (min-width: 340px){
+    .pro01{
+        width: 360px;
+        height: 740px;
+        background-color: rgb(74, 72, 72);
+        margin: auto;
+    }
+    .b1{
+        width: 360px;
+        height: 300px;
+        background-color: aqua;
+        margin-top: 384px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .b2{
+        width: 280px;
+        height: 380px;
+        background-color: black;
+        margin-left: 40px;
+        margin-bottom: 630px;
+        position: absolute;
+    }
+    .b3{
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        margin-left: 80px;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+        font-family: 'Lobster', cursive;
+        font-size: 20px;
+
+    }
+    .img1{
+        width: 280px;
+        height: 380px;
+     }
+     .img2{
+        width: 360px;
+        height: 300px;
+     }
+}
+/*Página para Pc*/
+@media only screen and (min-width: 900px){
+    .pro01{
+        width: 800px;
+        height: 768px;
+        background-color: rgb(74, 72, 72);
+        margin: auto;
+    }
+    .b1{
+        width: 800px;
+        height: 300px;
+        background-color: rgb(66, 63, 63);
+        margin-top: 240px;
+        display: flex;
+        align-items: center;
+    }
+    .b2{
+        width: 300px;
+        height: 450px;
+        background-color: black;
+        margin-left: 40px;
+        margin-top: 620px;
+    }
+    .b3{
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        margin-left: 380px;
+        margin-bottom: 90px;
+        color: rgb(255, 255, 255);
+        font-family: 'Lobster', cursive;
+    }
+    .img1{
+        width: 300px;
+        height: 450px;
+     }
+     .img2{
+        width: 800px;
+        height: 300px;
+     }
+    }
+
+
